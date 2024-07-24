@@ -23,3 +23,25 @@ flex-direction: ;
 *column
 *column-reverse
 *row-reverse
+
+
+********************************************justify-content property******************************************************
+NOTE: this is a parents property not of child.
+      if there is display flex and flex-direction row in parent element then justify-content will behave on x-axis(where your child elements can be left,right or center)
+      and align-items will behave y-axis(where your child element can be top,center or bottom),but if  parent element contains
+      display flex and flex-direction column then align-items behave on x-axis and justify-contains on y-axis. 
+
+justify-content: ;
+align-items: ;
+
+
+NOTE: when display flex and flex-direction row then given below.
+              
+            justify-content: ;
+
+* flex-start -------->no changes (or left align)
+* flex-end  --------->   change (right align)
+* center    ----------> change ( center)
+* space-between -------> change (provide equal space between items but first box and last box child will be pasted to there start and end)
+* space-around  ------->  change (equal space from everywhere even from let and right corner)
+* space-evenly  ---------> 

@@ -21,3 +21,19 @@ background-color: purple;
 color: white;
 margin: 10px;
 }
+.flexExampleNew{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content:space-around;
+}
+.items{
+    width: 200px;
+    box-shadow:0px 0px 10px 2px #ccc  ;
+    text-align: center;
+    padding: 30px 0px;
+}
+.items img{
+    width: 50px;
+}
