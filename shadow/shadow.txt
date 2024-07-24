@@ -1,0 +1,24 @@
+.........................................shadow property in css...........................................................
+
+
+.........................................text shadow property.........................................................
+ NOTE: text shadow is used to set the shadow for the text, it mainly take four parameter that X-AXIS,Y-AXIS,BLUR & COLOR.
+ 
+ text-shadow: x-axis y-axis blur color ;
+ ex:- text-shadow: 10px 0px 5px green ;
+
+ NOTE: you can pass multiple parameter.
+ ex:- text-shadow: 10px 0px 5px green , 0px 0px 4px red;  
+
+
+..................................................box shadow property   ......................................................
+
+box-shadow: x-offset y-offset blur all-direction color;
+ex:- box-shadow: 0px 0px 5px  3px green;
+
+NOTE: you can pass mutiple values like we pass in text shadow.
+
+ex:- box-shadow: 0px 0px 5px  3px green  ,  ex:- box-shadow: 10px -10px 5px  9px red;
+
+NOTE: you can also apply shadow inside the div with the help of the "inset ".
+ex:- box-shadow: inset 0px 0px 5px  3px green;

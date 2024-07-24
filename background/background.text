@@ -1,0 +1,47 @@
+.................................background property.....................................................................
+NOTE: property used to apply image in background ,
+
+NOTE: in background property you can apply background color as well as background image 
+* background: url("") ;
+NOTE: in background-mage property you can apply image only .
+* background-image:url("");
+
+
+..................................background-repeat property in css.......................................................
+
+background-repeat:;
+ * repeat  (by default repeat)
+ * no-repeat ---->(applicable only in small image case)
+ * repeat-x  ----->(images will repeat only on x axis)
+ * repeat-y   ----->(images will repeat only on y axis)
+
+
+.................................background position in css...............................................................
+
+
+background-position:;
+
+* center
+* right
+* left
+* top-right
+* bottom center
+* and etc..
+
+
+
+..........................................background size property in css.............................................
+NOTE: this property used to set the image,it actually take cover value that sets the image according to the size,if image is larger 
+       than the box ,it will compressed, or image is smaller than the box ,it will expand image according to the box to make it fit.
+
+background-size: ;
+ 
+ * width% height%
+ * cover   (imp)
+ * content
+
+
+...............................................background attachment property in css......................................
+NOTE:it used to set the background image as fixed  
+
+background-according:fixed;

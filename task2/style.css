@@ -1,0 +1,100 @@
+.main{
+    width: 1000px;
+    height: 540px;
+    background-color: red;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 4px dashed black;
+    margin: 0px auto;
+}
+.row1{
+width: 996px;
+text-align: center;
+padding-top: 30px;
+border: 2px solid black;
+height: 66px;
+text-transform: uppercase;
+background-color:blueviolet;
+font-size: 2em;
+text-align: center;
+color: black;
+text-decoration: underline;
+font-style: italic;
+font-weight: bolder;
+word-spacing: 20px;
+letter-spacing: 2px;
+}
+.row2{
+    width: 1000px;
+    height: 40px;
+    background-color:cadetblue;
+}
+.row2c1{
+    width: 186px;
+    height: 26px;
+    float: left;
+    background-color: bisque;
+    border: 2px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align:center;
+    padding-top: 10px;
+}
+.row3{
+    width:1000px;
+    height: 200px;
+    background-color:yellow;
+}
+.row3left{
+    width: 250px;
+    height: 200px;
+    float: left;
+    background-color: darkgreen;
+}
+.row3right{
+    width: 725px;
+    height: 200px;
+    border-left: 5px solid red;
+    float: right;
+    background-color:springgreen;
+    margin-left: 20px;
+}
+.row3leftr{
+    width: 246px;
+    height:36px;
+    background-color: azure;
+    border: 2px solid black;
+}
+.row4{
+    width: 996PX;
+    height: 36PX;
+    padding-top: 10px;
+    text-align: center;
+    border:2px solid black;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 2em;
+    background-color: goldenrod;
+}
+.row5{
+    width: 992px;
+    height: 106px;
+    border: 2px  solid black;
+    padding-left: 4px;
+}
+.row5c1{
+width: 326px;
+height: 86px;
+float: left;
+text-align: center;
+padding-top: 20px;
+border: 2px solid black;
+}
+.row6{
+    width: 996px;
+    height: 26px;
+    font-weight: bolder;
+    border: 2px solid black;
+    text-align: center;
+    word-spacing: 10px;
+    padding-top: 10px;
+}

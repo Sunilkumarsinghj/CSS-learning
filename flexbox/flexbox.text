@@ -1,0 +1,25 @@
+********************************************flex-box property in css******************************************************
+NOTE:flexbox is a parent's property to manage their child
+
+..............................................parent property.............................................................
+display:flex;   ----->display flex property will align all the child on the single horizontal line 
+
+
+
+
+
+******************************************flex wrap property in css*******************************************************
+NOTE: if you want to addjust the boxes according to your calculation then you should use flex-wrap property.
+      when you use flex-wrap:wrap; in your parent ,it means child will be adjusted according to the width of the child.
+
+flex-wrap:wrap;
+
+
+
+******************************************flex-direction*****************************************************************
+flex-direction: ;
+
+*row --->by default
+*column
+*column-reverse
+*row-reverse

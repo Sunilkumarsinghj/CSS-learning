@@ -1,0 +1,105 @@
+note:-default font size is 16px
+......................................................................font property.....................................................................................................
+font-size:;
+0px
+1em=16px
+
+NOTE:1em value of font-size property depends on the relative of it,like if you set value 1em into the child div
+then it will be evauated as 16px when the relative parent div is not defined in terms of font-size ,or if you set the font-size
+into the parent div then their child will set 1em according to the parent
+
+
+.......................................text-align property................................................................
+USE: it is used to align text according to the given width within in the div box
+text-align: ;
+
+* center
+* left or right
+* justify
+
+
+.................................................font-weight................................................................
+
+font-wight: ;
+*bold
+*bolder
+
+.................................................font-style..............................................................
+
+
+USE:it is used to style the font or text through passing value like italic
+
+font-style:;
+* italic
+* oblique
+
+.........................................text-decoration underline property in css.........................................
+USE:it is used to give underline to the text
+text-decoration: ;
+* underline 
+* line-through
+
+...........................................text-transform propertyin in css..................................................
+USE: text-transform property refers to the changing of text ,it can be uppercase ,lowercase or capitalize.
+
+text-transform: ;
+
+* uppercase
+* lowercase
+* capitalize
+
+
+
+
+.........................................how to space between words in css.................................................
+
+USE: used to provide space or gap  between words ,on other hand if you want to provide space or gap between laters then you can go for leter-spacing property.
+ 
+word-spacing: ;
+
+
+
+
+.....................................................font-family........................................................
+USE:  used to provide designing to the text.
+
+font-family: ;
+
+* sans-serif
+* arial
+* cursive
+
+............................................box model property in css....................................................
+ NOTE: the CSS box model has three main property in it 
+  marging: ;
+  padding: ;
+  border: ;
+
+
+
+1.BORDER property: border property directly impact on the width area and the height area of div,we passes three main parameters to the width usally.
+                     it can be size ,type ,color            
+
+
+
+2. MARGIN: it is used to provide space to the div or box from any direction,remember it also take width and height space from outside.
+
+ * margin: 0px;    ----> it will apply outside margin from all 4 direction.
+ * margina: top right bottom left ;
+ * margin: top-bottom  left-right;
+ * margin-left:;
+ * margin-right:;
+ * margin-top:;
+ * margin-bottom:; 
+ * margin: 0px auto;
+ NOTE: margin auto  value used to set the div centerly align .
+
+
+3. PADDING: used to provide under space or gap to the content ,it also increase area of width or height from inside.
+   padding: 0px;  ------> all direction
+   padding: top right bottom left;
+   padding:top-bottom left-right;
+   padding-left:;
+   padding-right:;
+   padding-bottom:;
+   padding-top:;

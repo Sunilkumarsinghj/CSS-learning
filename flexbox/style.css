@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.flexboxExample{
+    
+    width: 1320px;
+    margin:  auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+.flexItems{
+width: 500px;
+text-align: center;
+background-color: purple;
+color: white;
+margin: 10px;
+}
